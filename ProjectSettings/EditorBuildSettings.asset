@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SceneWin.unity
-    guid: f8f8844814fd64b4384174062c33c23c
-  - enabled: 1
     path: Assets/Scenes/HangManGame.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: f8f8844814fd64b4384174062c33c23c
+  - enabled: 1
+    path: Assets/Scenes/YouLost.unity
+    guid: 7168b93d26b320348b78bfba9aaf61d2
   m_configObjects: {}

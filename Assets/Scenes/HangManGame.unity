@@ -485,6 +485,7 @@ GameObject:
   - component: {fileID: 1061552893}
   - component: {fileID: 1061552892}
   - component: {fileID: 1061552894}
+  - component: {fileID: 1061552895}
   m_Layer: 5
   m_Name: Word
   m_TagString: Untagged
@@ -626,6 +627,19 @@ MonoBehaviour:
   _textHp: {fileID: 1572328748}
   _cluesText: {fileID: 1973998280}
   _textLetters: {fileID: 0}
+--- !u!114 &1061552895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061552889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2dfaff8a244c683bba82460cc954f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SceneWin
 --- !u!1 &1572328746
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,7 +886,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29, y: -265}
+  m_AnchoredPosition: {x: -279, y: 129}
   m_SizeDelta: {x: 286.1176, y: 71.5294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1973998280
